@@ -14,31 +14,26 @@ public class Main {
     public static HashMap<String, ArrayList<Country>> country;
 
     public static void main(String[] args) {
-        read();
-        System.out.println("WTF MATE?");
+        read(COUNTRIES);
+        System.out.println("enter a letter");
+        Scanner scanner = new Scanner(System.in);
 
 
     }
 
-    public static HashMap<String, ArrayList<Country>> read() {
-        HashMap<String, ArrayList<Country>> countries = new HashMap<>();
+    public static ArrayList<Country> read(String countryFile) {
+        ArrayList<Country> countries = new ArrayList<>();
 
         // read the file and place them into hash map
         File file = new File(COUNTRIES);
         Scanner fileScanner = null;
         try {
             fileScanner = new Scanner(file);
-            ArrayList<Country> countries1 = new ArrayList<>();
             while (fileScanner.hasNext()) {
                 String line = fileScanner.nextLine();
                 String[] columns = line.split("\\|");
                 Country country = new Country(columns[0], columns[1]);
-                country.countryAbbreviation = columns[0];
-                country.countryName = columns[1];
-                countries1.add(country);
-                countries.put(columns[0], countries1);
-
-
+                countries.add(country);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
