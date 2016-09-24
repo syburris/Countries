@@ -1,0 +1,16 @@
+Country{abbreviation='AF', name='afghanistan'}
+Country{abbreviation='AL', name='albania'}
+Country{abbreviation='AS', name='american samoa'}
+Country{abbreviation='AD', name='andorra'}
+Country{abbreviation='AO', name='angola'}
+Country{abbreviation='AI', name='anguilla'}
+Country{abbreviation='AQ', name='antarctica'}
+Country{abbreviation='AG', name='antigua and barbuda'}
+Country{abbreviation='AR', name='argentina'}
+Country{abbreviation='AM', name='armenia'}
+Country{abbreviation='AW', name='aruba'}
+Country{abbreviation='AU', name='australia'}
+Country{abbreviation='AT', name='austria'}
+Country{abbreviation='AZ', name='azerbaijan'}
+Country{abbreviation='AN', name='netherlands antilles'}
+Country{abbreviation='AE', name='united arab emirates'}

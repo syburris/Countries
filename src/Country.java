@@ -3,27 +3,35 @@
  */
 public class Country {
 
-    String countryAbbreviation;
-    String countryName;
+    String abbreviation;
+    String name;
 
-    public Country(String countryAbbreviation, String countryName) {
-        this.countryAbbreviation = countryAbbreviation;
-        this.countryName = countryName;
+    public Country(String abbreviation, String name) {
+        this.abbreviation = abbreviation;
+        this.name = name;
     }
 
-    public String getCountryName() {
-        return countryName;
+    public String getAbbreviation() {
+        return abbreviation;
     }
 
-    public void setCountryName(String countryName) {
-        this.countryName = countryName;
+    public void setAbbreviation(String abbreviation) {
+        this.abbreviation = abbreviation;
     }
 
-    public String getCountryAbbreviation() {
-        return countryAbbreviation;
+    public String getName() {
+        return name;
     }
 
-    public void setCountryAbbreviation(String countryAbbreviation) {
-        this.countryAbbreviation = countryAbbreviation;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "abbreviation='" + abbreviation + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
