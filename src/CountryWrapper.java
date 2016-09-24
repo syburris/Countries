@@ -6,17 +6,17 @@ import java.util.HashMap;
  */
 public class CountryWrapper {
 
-public static ArrayList<Country> country;
+public ArrayList<Country> country;
 
     public CountryWrapper() {
 
     }
 
-    public static ArrayList<Country> getCountry() {
+    public ArrayList<Country> getCountry() {
         return country;
     }
 
-    public static void setCountry(ArrayList<Country> country) {
-        CountryWrapper.country = country;
+    public void setCountry(ArrayList<Country> country) {
+        this.country = country;
     }
 }
