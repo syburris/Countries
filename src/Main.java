@@ -16,11 +16,15 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Country> countries= read(COUNTRIES);
-        System.out.println("enter a letter");
+        System.out.println("Please enter a letter.");
         Scanner scanner = new Scanner(System.in);
         String firstLetter = scanner.nextLine();
         if (firstLetter.length() > 1) {
             System.out.println("Please only type one letter.");
+            main(args);
+        }
+        if (firstLetter.isEmpty()) {
+            System.out.println("You must enter a letter.");
             main(args);
         }
         addToHashMap(countries);
