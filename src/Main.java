@@ -16,7 +16,6 @@ public class Main {
         ArrayList<Country> countries= read(COUNTRIES);
         System.out.println("enter a letter");
         Scanner scanner = new Scanner(System.in);
-
         String firsLetter = scanner.nextLine();
         if (firsLetter.length() > 1) {
             System.out.println("Please only type one letter.");
