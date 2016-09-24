@@ -27,8 +27,6 @@ public class Main {
         ArrayList<Country> countryList = countryMap.get(firstLetter);
         txtWriter(firstLetter,countryList);
         jsonWriter(firstLetter,countryList);
-
-
     }
 
     public static ArrayList<Country> read(String countryFile) {
