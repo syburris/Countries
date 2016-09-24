@@ -14,6 +14,8 @@ public class Main {
     public static HashMap<String, ArrayList<Country>> country;
 
     public static void main(String[] args) {
+        read();
+        System.out.println("WTF MATE?");
 
 
     }
@@ -26,21 +28,22 @@ public class Main {
         Scanner fileScanner = null;
         try {
             fileScanner = new Scanner(file);
+            ArrayList<Country> countries1 = new ArrayList<>();
             while (fileScanner.hasNext()) {
                 String line = fileScanner.nextLine();
                 String[] columns = line.split("\\|");
-                Country country = new Country(columns[0],columns[1]);
-                CountryWrapper.country.add();
-                countries.put(country.countryAbbreviation,country.countryName);
-
-
+                Country country = new Country(columns[0], columns[1]);
+                country.countryAbbreviation = columns[0];
+                country.countryName = columns[1];
+                countries1.add(country);
+                countries.put(columns[0], countries1);
 
 
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-
+        return countries;
     }
 
 }
