@@ -14,7 +14,7 @@ public class TestWriteToTextFile {
     public void testTxtWriter() throws IOException {
 
         //Given
-        ArrayList<Country> countryList = Main.countryMap.get("A");
+        ArrayList<Country> countryList = Main.countryMap.get(Main.firstLetter1);
 
 
         // When

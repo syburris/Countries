@@ -32,7 +32,7 @@ public class TestAddToHashMap {
         //Then
 
         assertFalse(countryMap.isEmpty());
-        assertTrue(countryMap.size() > 10);
+        assertTrue(countryMap.size() <= 25);
 
     }
 
