@@ -1,0 +1,19 @@
+Country{abbreviation='BS', name='bahamas'}
+Country{abbreviation='BH', name='bahrain'}
+Country{abbreviation='BD', name='bangladesh'}
+Country{abbreviation='BB', name='barbados'}
+Country{abbreviation='BY', name='belarus'}
+Country{abbreviation='BE', name='belgium'}
+Country{abbreviation='BZ', name='belize'}
+Country{abbreviation='BJ', name='benin'}
+Country{abbreviation='BM', name='bermuda'}
+Country{abbreviation='BT', name='bhutan'}
+Country{abbreviation='BO', name='bolivia'}
+Country{abbreviation='BA', name='bosnia and herzegovina'}
+Country{abbreviation='BW', name='botswana'}
+Country{abbreviation='BV', name='bouvet island'}
+Country{abbreviation='BR', name='brazil'}
+Country{abbreviation='BN', name='brunei darussalam'}
+Country{abbreviation='BG', name='bulgaria'}
+Country{abbreviation='BF', name='burkina faso'}
+Country{abbreviation='BI', name='burundi'}

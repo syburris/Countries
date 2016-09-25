@@ -1,0 +1,80 @@
+{
+  "country": [
+    {
+      "abbreviation": "BS",
+      "name": "bahamas"
+    },
+    {
+      "abbreviation": "BH",
+      "name": "bahrain"
+    },
+    {
+      "abbreviation": "BD",
+      "name": "bangladesh"
+    },
+    {
+      "abbreviation": "BB",
+      "name": "barbados"
+    },
+    {
+      "abbreviation": "BY",
+      "name": "belarus"
+    },
+    {
+      "abbreviation": "BE",
+      "name": "belgium"
+    },
+    {
+      "abbreviation": "BZ",
+      "name": "belize"
+    },
+    {
+      "abbreviation": "BJ",
+      "name": "benin"
+    },
+    {
+      "abbreviation": "BM",
+      "name": "bermuda"
+    },
+    {
+      "abbreviation": "BT",
+      "name": "bhutan"
+    },
+    {
+      "abbreviation": "BO",
+      "name": "bolivia"
+    },
+    {
+      "abbreviation": "BA",
+      "name": "bosnia and herzegovina"
+    },
+    {
+      "abbreviation": "BW",
+      "name": "botswana"
+    },
+    {
+      "abbreviation": "BV",
+      "name": "bouvet island"
+    },
+    {
+      "abbreviation": "BR",
+      "name": "brazil"
+    },
+    {
+      "abbreviation": "BN",
+      "name": "brunei darussalam"
+    },
+    {
+      "abbreviation": "BG",
+      "name": "bulgaria"
+    },
+    {
+      "abbreviation": "BF",
+      "name": "burkina faso"
+    },
+    {
+      "abbreviation": "BI",
+      "name": "burundi"
+    }
+  ]
+}

@@ -61,7 +61,7 @@ public class Main {
     public static void txtWriter(String firstLetter, ArrayList<Country> countryList) throws IOException {
         File countryFile = new File(firstLetter + "_countries.txt");
         FileWriter fileWriter = new FileWriter(countryFile);
-        for (Country country :countryList) {
+        for (Country country : countryList) {
             fileWriter.append(country.toString() + "\n");
         }
         fileWriter.close();

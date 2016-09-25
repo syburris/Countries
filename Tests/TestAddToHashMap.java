@@ -32,6 +32,7 @@ public class TestAddToHashMap {
         //Then
 
         assertTrue(true);
+
     }
 
 }
