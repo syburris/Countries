@@ -31,7 +31,8 @@ public class TestAddToHashMap {
 
         //Then
 
-        assertTrue(true);
+        assertFalse(countryMap.isEmpty());
+        assertTrue(countryMap.size() > 10);
 
     }
 

@@ -16,25 +16,27 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Country> countries= read(COUNTRIES);
-        System.out.println("Please enter an upper case letter.");
+        System.out.println("Please enter a letter.");
         Scanner scanner = new Scanner(System.in);
         String firstLetter = scanner.nextLine();
+        // converts firstLetter to uppercase
+        String firstLetter1 = firstLetter.toUpperCase();
+        System.out.println("You entered : " + firstLetter1);
 
-        // if the user input isn't an upper case letter, loop back and ask for an upper case letter
-        while (!firstLetter.matches("^[A-Z]+$")) {
-            System.out.println("Please enter an upper case letter.");
-            firstLetter = scanner.nextLine();
-            // If the input is more than one character, restart the program
-            if (firstLetter.length() > 1) {
-                System.out.println("Please only type one letter.");
-                firstLetter = scanner.nextLine();
-            }
+        if (firstLetter1.isEmpty()) {
+            System.out.println("You have to enter a letter");
+            main(args);
+        }
+
+        if (firstLetter1.length() > 1) {
+            System.out.println("You may only enter one letter.");
+            main(args);
         }
 
         addToHashMap(countries);
-        ArrayList<Country> countryList = countryMap.get(firstLetter);
-        txtWriter(firstLetter,countryList);
-        jsonWriter(firstLetter,countryList);
+        ArrayList<Country> countryList = countryMap.get(firstLetter1);
+        txtWriter(firstLetter1,countryList);
+        jsonWriter(firstLetter1,countryList);
     }
 
     public static ArrayList<Country> read(String countryFile) {
@@ -58,8 +60,8 @@ public class Main {
 
     // write array list to txt file
 
-    public static void txtWriter(String firstLetter, ArrayList<Country> countryList) throws IOException {
-        File countryFile = new File(firstLetter + "_countries.txt");
+    public static void txtWriter(String firstLetter1, ArrayList<Country> countryList) throws IOException {
+        File countryFile = new File(firstLetter1 + "_countries.txt");
         FileWriter fileWriter = new FileWriter(countryFile);
         for (Country country : countryList) {
             fileWriter.append(country.toString() + "\n");
@@ -85,8 +87,8 @@ public class Main {
     }
 
     // write to json
-    public static void jsonWriter(String firstLetter, ArrayList<Country> countryList) throws IOException {
-        File countryJson = new File(firstLetter + "_countries.json");
+    public static void jsonWriter(String firstLetter1, ArrayList<Country> countryList) throws IOException {
+        File countryJson = new File(firstLetter1 + "_countries.json");
         JsonSerializer serializer = new JsonSerializer();
         CountryWrapper wrapper = new CountryWrapper();
         wrapper.country = countryList;
