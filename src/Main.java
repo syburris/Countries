@@ -16,17 +16,35 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Country> countries= read(COUNTRIES);
-        System.out.println("Please enter a letter.");
+        System.out.println("Please enter an upper case letter.");
         Scanner scanner = new Scanner(System.in);
         String firstLetter = scanner.nextLine();
+
+        // If the input is more than one character, restart the program
         if (firstLetter.length() > 1) {
             System.out.println("Please only type one letter.");
             main(args);
         }
+
+        // If the input is empty, restart the program
         if (firstLetter.isEmpty()) {
             System.out.println("You must enter a letter.");
             main(args);
         }
+
+        while (!firstLetter.matches("^[A-Z]+$")) {
+            System.out.println("Please enter an upper case letter.");
+            firstLetter = scanner.nextLine();
+
+            // If the input is empty, restart the program
+            if (firstLetter.isEmpty()) {
+                System.out.println("You must enter a letter.");
+                main(args);
+            }
+
+        }
+
+
         addToHashMap(countries);
         ArrayList<Country> countryList = countryMap.get(firstLetter);
         txtWriter(firstLetter,countryList);
