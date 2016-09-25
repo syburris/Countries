@@ -23,6 +23,9 @@ public class TestReadCountriesFile {
 
         assertTrue(countries.get(0).getClass().equals(Country.class));
         assertTrue(countries.get(0).name.equals("afghanistan"));
+        assertTrue(countries.get(0).abbreviation.equals("AF"));
+        assertTrue(countries.get(1).name.equals("albania"));
+        assertTrue(countries.get(1).abbreviation.equals("AL"));
 
     }
 
