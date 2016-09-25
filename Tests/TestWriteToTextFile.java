@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import static org.junit.Assert.*;
@@ -10,14 +11,19 @@ import static org.junit.Assert.*;
 public class TestWriteToTextFile {
 
     @Test
-    public void testTxtWriter() {
+    public void testTxtWriter() throws IOException {
 
         //Given
+        ArrayList<Country> countryList = Main.countryMap.get("A");
 
 
         // When
 
+        Main.txtWriter(Main.firstLetter1,countryList);
+
         // Then
+
+        assertTrue(true);
 
 
     }

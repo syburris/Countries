@@ -13,6 +13,7 @@ public class Main {
 
     static final String COUNTRIES = "countries.txt";
     public static HashMap<String, ArrayList<Country>> countryMap = new HashMap<>();
+    public static String firstLetter1;
 
     public static void main(String[] args) throws IOException {
         ArrayList<Country> countries= read(COUNTRIES);
@@ -58,17 +59,6 @@ public class Main {
         return countries;
     }
 
-    // write array list to txt file
-
-    public static void txtWriter(String firstLetter1, ArrayList<Country> countryList) throws IOException {
-        File countryFile = new File(firstLetter1 + "_countries.txt");
-        FileWriter fileWriter = new FileWriter(countryFile);
-        for (Country country : countryList) {
-            fileWriter.append(country.toString() + "\n");
-        }
-        fileWriter.close();
-    }
-
     /* For every Country object country within the array list countries
             check the first letter and if the first letter is in the HashMap "countryMap"
             as the key, then get the ArrayList of countries that start with that letter.
@@ -84,6 +74,17 @@ public class Main {
             countryNameBeginsWith.add(country);
             countryMap.put(firsLetter2,countryNameBeginsWith);
         }
+    }
+
+    // write array list to txt file
+
+    public static void txtWriter(String firstLetter1, ArrayList<Country> countryList) throws IOException {
+        File countryFile = new File(firstLetter1 + "_countries.txt");
+        FileWriter fileWriter = new FileWriter(countryFile);
+        for (Country country : countryList) {
+            fileWriter.append(country.toString() + "\n");
+        }
+        fileWriter.close();
     }
 
     // write to json
