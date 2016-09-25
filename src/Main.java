@@ -20,19 +20,16 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String firstLetter = scanner.nextLine();
 
-        // If the input is more than one character, restart the program
-        if (firstLetter.length() > 1) {
-            System.out.println("Please only type one letter.");
-            main(args);
+        // if the user input isn't an upper case letter, loop back and ask for an upper case letter
+        while (!firstLetter.matches("^[A-Z]+$")) {
+            System.out.println("Please enter an upper case letter.");
+            firstLetter = scanner.nextLine();
+            // If the input is more than one character, restart the program
+            if (firstLetter.length() > 1) {
+                System.out.println("Please only type one letter.");
+                firstLetter = scanner.nextLine();
+            }
         }
-
-        // If the input is empty, restart the program
-        if (firstLetter.isEmpty()) {
-            System.out.println("You must enter a letter.");
-            main(args);
-        }
-
-
 
         addToHashMap(countries);
         ArrayList<Country> countryList = countryMap.get(firstLetter);
