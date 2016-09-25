@@ -32,17 +32,6 @@ public class Main {
             main(args);
         }
 
-        while (!firstLetter.matches("^[A-Z]+$")) {
-            System.out.println("Please enter an upper case letter.");
-            firstLetter = scanner.nextLine();
-
-            // If the input is empty, restart the program
-            if (firstLetter.isEmpty()) {
-                System.out.println("You must enter a letter.");
-                main(args);
-            }
-
-        }
 
 
         addToHashMap(countries);
