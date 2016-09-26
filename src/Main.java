@@ -24,14 +24,22 @@ public class Main {
         String firstLetter1 = firstLetter.toUpperCase();
         System.out.println("You entered : " + firstLetter1);
 
+        if (!firstLetter1.matches("^[a-zA-Z]+$")){
+            System.out.println("You must enter a letter.");
+            main(args);
+            return;
+        }
+
         if (firstLetter1.isEmpty()) {
             System.out.println("You have to enter a letter");
             main(args);
+            return;
         }
 
         if (firstLetter1.length() > 1) {
             System.out.println("You may only enter one letter.");
             main(args);
+            return;
         }
 
         addToHashMap(countries);
