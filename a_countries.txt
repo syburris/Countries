@@ -1,5 +1,6 @@
 Country{abbreviation='AF', name='afghanistan'}
 Country{abbreviation='AL', name='albania'}
+Country{abbreviation='DZ', name='algeria'}
 Country{abbreviation='AS', name='american samoa'}
 Country{abbreviation='AD', name='andorra'}
 Country{abbreviation='AO', name='angola'}
@@ -12,5 +13,229 @@ Country{abbreviation='AW', name='aruba'}
 Country{abbreviation='AU', name='australia'}
 Country{abbreviation='AT', name='austria'}
 Country{abbreviation='AZ', name='azerbaijan'}
+Country{abbreviation='BS', name='bahamas'}
+Country{abbreviation='BH', name='bahrain'}
+Country{abbreviation='BD', name='bangladesh'}
+Country{abbreviation='BB', name='barbados'}
+Country{abbreviation='BY', name='belarus'}
+Country{abbreviation='BE', name='belgium'}
+Country{abbreviation='BZ', name='belize'}
+Country{abbreviation='BJ', name='benin'}
+Country{abbreviation='BM', name='bermuda'}
+Country{abbreviation='BT', name='bhutan'}
+Country{abbreviation='BO', name='bolivia'}
+Country{abbreviation='BA', name='bosnia and herzegovina'}
+Country{abbreviation='BW', name='botswana'}
+Country{abbreviation='BV', name='bouvet island'}
+Country{abbreviation='BR', name='brazil'}
+Country{abbreviation='IO', name='british indian ocean territory'}
+Country{abbreviation='BN', name='brunei darussalam'}
+Country{abbreviation='BG', name='bulgaria'}
+Country{abbreviation='BF', name='burkina faso'}
+Country{abbreviation='BI', name='burundi'}
+Country{abbreviation='KH', name='cambodia'}
+Country{abbreviation='CM', name='cameroon'}
+Country{abbreviation='CA', name='canada'}
+Country{abbreviation='CV', name='cape verde'}
+Country{abbreviation='KY', name='cayman islands'}
+Country{abbreviation='CF', name='central african republic'}
+Country{abbreviation='TD', name='chad'}
+Country{abbreviation='CL', name='chile'}
+Country{abbreviation='CN', name='china'}
+Country{abbreviation='CX', name='christmas island'}
+Country{abbreviation='CC', name='cocos (keeling) islands'}
+Country{abbreviation='CO', name='colombia'}
+Country{abbreviation='KM', name='comoros'}
+Country{abbreviation='CG', name='congo'}
+Country{abbreviation='CD', name='congo, the democratic republic of the'}
+Country{abbreviation='CK', name='cook islands'}
+Country{abbreviation='CR', name='costa rica'}
+Country{abbreviation='CI', name='cote d'ivoire'}
+Country{abbreviation='HR', name='croatia'}
+Country{abbreviation='CU', name='cuba'}
+Country{abbreviation='CY', name='cyprus'}
+Country{abbreviation='CZ', name='czech republic'}
+Country{abbreviation='DK', name='denmark'}
+Country{abbreviation='DJ', name='djibouti'}
+Country{abbreviation='DM', name='dominica'}
+Country{abbreviation='DO', name='dominican republic'}
+Country{abbreviation='TP', name='east timor'}
+Country{abbreviation='EC', name='ecuador'}
+Country{abbreviation='EG', name='egypt'}
+Country{abbreviation='SV', name='el salvador'}
+Country{abbreviation='GQ', name='equatorial guinea'}
+Country{abbreviation='ER', name='eritrea'}
+Country{abbreviation='EE', name='estonia'}
+Country{abbreviation='ET', name='ethiopia'}
+Country{abbreviation='FK', name='falkland islands (malvinas)'}
+Country{abbreviation='FO', name='faroe islands'}
+Country{abbreviation='FJ', name='fiji'}
+Country{abbreviation='FI', name='finland'}
+Country{abbreviation='FR', name='france'}
+Country{abbreviation='GF', name='french guiana'}
+Country{abbreviation='PF', name='french polynesia'}
+Country{abbreviation='TF', name='french southern territories'}
+Country{abbreviation='GA', name='gabon'}
+Country{abbreviation='GM', name='gambia'}
+Country{abbreviation='GE', name='georgia'}
+Country{abbreviation='DE', name='germany'}
+Country{abbreviation='GH', name='ghana'}
+Country{abbreviation='GI', name='gibraltar'}
+Country{abbreviation='GR', name='greece'}
+Country{abbreviation='GL', name='greenland'}
+Country{abbreviation='GD', name='grenada'}
+Country{abbreviation='GP', name='guadeloupe'}
+Country{abbreviation='GU', name='guam'}
+Country{abbreviation='GT', name='guatemala'}
+Country{abbreviation='GN', name='guinea'}
+Country{abbreviation='GW', name='guinea-bissau'}
+Country{abbreviation='GY', name='guyana'}
+Country{abbreviation='HT', name='haiti'}
+Country{abbreviation='HM', name='heard island and mcdonald islands'}
+Country{abbreviation='VA', name='holy see (vatican city state)'}
+Country{abbreviation='HN', name='honduras'}
+Country{abbreviation='HK', name='hong kong'}
+Country{abbreviation='HU', name='hungary'}
+Country{abbreviation='IS', name='iceland'}
+Country{abbreviation='IN', name='india'}
+Country{abbreviation='ID', name='indonesia'}
+Country{abbreviation='IR', name='iran, islamic republic of'}
+Country{abbreviation='IQ', name='iraq'}
+Country{abbreviation='IE', name='ireland'}
+Country{abbreviation='IL', name='israel'}
+Country{abbreviation='IT', name='italy'}
+Country{abbreviation='JM', name='jamaica'}
+Country{abbreviation='JP', name='japan'}
+Country{abbreviation='JO', name='jordan'}
+Country{abbreviation='KZ', name='kazakstan'}
+Country{abbreviation='KE', name='kenya'}
+Country{abbreviation='KI', name='kiribati'}
+Country{abbreviation='KP', name='korea, democratic people's republic of'}
+Country{abbreviation='KR', name='korea, republic of'}
+Country{abbreviation='KV', name='kosovo'}
+Country{abbreviation='KW', name='kuwait'}
+Country{abbreviation='KG', name='kyrgyzstan'}
+Country{abbreviation='LA', name='lao people's democratic republic'}
+Country{abbreviation='LV', name='latvia'}
+Country{abbreviation='LB', name='lebanon'}
+Country{abbreviation='LS', name='lesotho'}
+Country{abbreviation='LR', name='liberia'}
+Country{abbreviation='LY', name='libyan arab jamahiriya'}
+Country{abbreviation='LI', name='liechtenstein'}
+Country{abbreviation='LT', name='lithuania'}
+Country{abbreviation='LU', name='luxembourg'}
+Country{abbreviation='MO', name='macau'}
+Country{abbreviation='MK', name='macedonia, the former yugoslav republic of'}
+Country{abbreviation='MG', name='madagascar'}
+Country{abbreviation='MW', name='malawi'}
+Country{abbreviation='MY', name='malaysia'}
+Country{abbreviation='MV', name='maldives'}
+Country{abbreviation='ML', name='mali'}
+Country{abbreviation='MT', name='malta'}
+Country{abbreviation='MH', name='marshall islands'}
+Country{abbreviation='MQ', name='martinique'}
+Country{abbreviation='MR', name='mauritania'}
+Country{abbreviation='MU', name='mauritius'}
+Country{abbreviation='YT', name='mayotte'}
+Country{abbreviation='MX', name='mexico'}
+Country{abbreviation='FM', name='micronesia, federated states of'}
+Country{abbreviation='MD', name='moldova, republic of'}
+Country{abbreviation='MC', name='monaco'}
+Country{abbreviation='MN', name='mongolia'}
+Country{abbreviation='MS', name='montserrat'}
+Country{abbreviation='ME', name='montenegro'}
+Country{abbreviation='MA', name='morocco'}
+Country{abbreviation='MZ', name='mozambique'}
+Country{abbreviation='MM', name='myanmar'}
+Country{abbreviation='NA', name='namibia'}
+Country{abbreviation='NR', name='nauru'}
+Country{abbreviation='NP', name='nepal'}
+Country{abbreviation='NL', name='netherlands'}
 Country{abbreviation='AN', name='netherlands antilles'}
+Country{abbreviation='NC', name='new caledonia'}
+Country{abbreviation='NZ', name='new zealand'}
+Country{abbreviation='NI', name='nicaragua'}
+Country{abbreviation='NE', name='niger'}
+Country{abbreviation='NG', name='nigeria'}
+Country{abbreviation='NU', name='niue'}
+Country{abbreviation='NF', name='norfolk island'}
+Country{abbreviation='MP', name='northern mariana islands'}
+Country{abbreviation='NO', name='norway'}
+Country{abbreviation='OM', name='oman'}
+Country{abbreviation='PK', name='pakistan'}
+Country{abbreviation='PW', name='palau'}
+Country{abbreviation='PS', name='palestinian territory, occupied'}
+Country{abbreviation='PA', name='panama'}
+Country{abbreviation='PG', name='papua new guinea'}
+Country{abbreviation='PY', name='paraguay'}
+Country{abbreviation='PE', name='peru'}
+Country{abbreviation='PH', name='philippines'}
+Country{abbreviation='PN', name='pitcairn'}
+Country{abbreviation='PL', name='poland'}
+Country{abbreviation='PT', name='portugal'}
+Country{abbreviation='PR', name='puerto rico'}
+Country{abbreviation='QA', name='qatar'}
+Country{abbreviation='RE', name='reunion'}
+Country{abbreviation='RO', name='romania'}
+Country{abbreviation='RU', name='russian federation'}
+Country{abbreviation='RW', name='rwanda'}
+Country{abbreviation='SH', name='saint helena'}
+Country{abbreviation='KN', name='saint kitts and nevis'}
+Country{abbreviation='LC', name='saint lucia'}
+Country{abbreviation='PM', name='saint pierre and miquelon'}
+Country{abbreviation='VC', name='saint vincent and the grenadines'}
+Country{abbreviation='WS', name='samoa'}
+Country{abbreviation='SM', name='san marino'}
+Country{abbreviation='ST', name='sao tome and principe'}
+Country{abbreviation='SA', name='saudi arabia'}
+Country{abbreviation='SN', name='senegal'}
+Country{abbreviation='RS', name='serbia'}
+Country{abbreviation='SC', name='seychelles'}
+Country{abbreviation='SL', name='sierra leone'}
+Country{abbreviation='SG', name='singapore'}
+Country{abbreviation='SK', name='slovakia'}
+Country{abbreviation='SI', name='slovenia'}
+Country{abbreviation='SB', name='solomon islands'}
+Country{abbreviation='SO', name='somalia'}
+Country{abbreviation='ZA', name='south africa'}
+Country{abbreviation='GS', name='south georgia and the south sandwich islands'}
+Country{abbreviation='ES', name='spain'}
+Country{abbreviation='LK', name='sri lanka'}
+Country{abbreviation='SD', name='sudan'}
+Country{abbreviation='SR', name='suriname'}
+Country{abbreviation='SJ', name='svalbard and jan mayen'}
+Country{abbreviation='SZ', name='swaziland'}
+Country{abbreviation='SE', name='sweden'}
+Country{abbreviation='CH', name='switzerland'}
+Country{abbreviation='SY', name='syrian arab republic'}
+Country{abbreviation='TW', name='taiwan, province of china'}
+Country{abbreviation='TJ', name='tajikistan'}
+Country{abbreviation='TZ', name='tanzania, united republic of'}
+Country{abbreviation='TH', name='thailand'}
+Country{abbreviation='TG', name='togo'}
+Country{abbreviation='TK', name='tokelau'}
+Country{abbreviation='TO', name='tonga'}
+Country{abbreviation='TT', name='trinidad and tobago'}
+Country{abbreviation='TN', name='tunisia'}
+Country{abbreviation='TR', name='turkey'}
+Country{abbreviation='TM', name='turkmenistan'}
+Country{abbreviation='TC', name='turks and caicos islands'}
+Country{abbreviation='TV', name='tuvalu'}
+Country{abbreviation='UG', name='uganda'}
+Country{abbreviation='UA', name='ukraine'}
 Country{abbreviation='AE', name='united arab emirates'}
+Country{abbreviation='GB', name='united kingdom'}
+Country{abbreviation='US', name='united states'}
+Country{abbreviation='UM', name='united states minor outlying islands'}
+Country{abbreviation='UY', name='uruguay'}
+Country{abbreviation='UZ', name='uzbekistan'}
+Country{abbreviation='VU', name='vanuatu'}
+Country{abbreviation='VE', name='venezuela'}
+Country{abbreviation='VN', name='viet nam'}
+Country{abbreviation='VG', name='virgin islands, british'}
+Country{abbreviation='VI', name='virgin islands, u.s.'}
+Country{abbreviation='WF', name='wallis and futuna'}
+Country{abbreviation='EH', name='western sahara'}
+Country{abbreviation='YE', name='yemen'}
+Country{abbreviation='ZM', name='zambia'}
+Country{abbreviation='ZW', name='zimbabwe'}
